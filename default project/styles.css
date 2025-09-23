@@ -107,3 +107,24 @@ nav a:hover {
 .book:hover .book-info {
   opacity: 1;           /* show on hover */
 }
+
+.project {
+  display: flex;            /* put image + description side by side */
+  align-items: center;      /* vertically align them */
+  gap: 20px;                /* space between image and text */
+  margin-top: 20px;
+}
+
+.project img {
+  flex-shrink: 0;           /* prevents the image from shrinking */
+}
+
+.project .right {
+  list-style-type: disc;    /* normal bullets (you can remove if you want) */
+  padding-left: 20px;       /* spacing for bullets */
+  margin: 0;                /* remove default margins */
+}
+
+.gamemaker {
+  border:none
+}
