@@ -129,3 +129,7 @@ nav a:hover {
   border:none
 
 }
+.project.video {
+  margin-top: 40px;
+  text-align: center; 
+}
